@@ -1,12 +1,13 @@
 # Shiny Server
 
 # Set the working directory 
-setwd('C:/Users/chenn/Documents/Info498F/a8-Interactive-Shiny-App/scripts')
+# setwd('C:/Users/chenn/Documents/Info498F/a8-Interactive-Shiny-App/scripts')
+# If I set the working directory it would create an error during publication
 
 # Require Packages
 library(shiny)
 library(plotly)
-source('build_graph.r')
+source('scripts/build_graph.r')
 
 
 # Server
